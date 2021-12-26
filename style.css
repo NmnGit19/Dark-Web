@@ -1,0 +1,149 @@
+body{
+    padding: 0.1px;
+    margin: 0px;
+    background-color: currentColor;
+    background-image: url(images/laptop1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px 800px;
+}
+/*Start nav bar*/
+#nav1{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: green;
+}
+#img1{
+    width: 40px;
+    border-radius: 30px;
+    padding: 5px;
+}
+nav div{
+    margin-left: 40px;
+}
+.div1{
+   margin-top: 16px;
+   color: white;
+}
+.div1 a{
+    color: white;
+    text-decoration: none;
+}
+/*End nav bar*/
+
+#h31{
+    color: white;
+    margin-top: 70px;
+}
+
+/*Start search bar*/
+#searchbar{
+    display: flex;
+    border: 2px;
+    width: 70%;
+    height: 43px;
+    background-color: white;
+    border-radius: 122px;
+}
+#searchbar:hover{
+    box-shadow: 5px 5px 12px 0px grey;
+}
+#searchbar1{
+    color: whitesmoke;   
+}
+#searchbar1 input{
+    color: whitesmoke;
+    width: 620px;
+    height: 33px;
+    margin-top: 4px;
+    margin-left: 15px;
+    border: 0px;
+}
+#searchbar2{
+    color: whitesmoke;
+    width: 50%;
+    text-align: end;
+    margin-top: 2px;
+}
+#img2{
+    width: 40px;
+    border-radius: 20px;
+}
+/*End search bar*/
+
+#p1{
+    color: white;
+    font-size: 22px;
+    margin-top: 450px;
+}
+
+/*Start second block*/
+.nav2{
+    display: flex;
+}
+#div1{
+   width: 50%; 
+}
+.div2{
+    width: 50%;
+    border: 1px;
+    margin-top: 200px;
+}
+.img3{
+    margin-top: 225px;
+    width: 520;
+    height: 300px;
+}
+
+.p2{
+    color: white;
+}
+.h21{
+    color: white;  
+}
+/*End second block*/
+
+.li1{
+    color: white;
+    margin-top: 10px;
+}
+#img4{
+    margin-left: 150px;
+    margin-top: 150px;
+    width: 300px;
+    height: 360px;
+    border: 5px solid gray;
+    
+}
+#div2{
+    color: white;
+    margin-top: 230px;
+    word-spacing: 10px;
+}
+#ul1{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/*start footer*/
+.footer1{
+    display: flex;
+    margin-left: 33%;
+}
+.img5{
+    width: 75px;
+    height: 40px;
+}
+#buttondown{
+    cursor: pointer;
+}
+/*End footer*/
+
+
+
+@media only screen and (max-width: 980px){
+    body{
+   background-size: contain;
+}
+}
